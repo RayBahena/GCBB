@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PlayerMovementAnimated : MonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
     public float moveSpeed = 10.0f;
 
@@ -79,5 +79,8 @@ public class PlayerMovementAnimated : MonoBehaviour
     void OnTriggerExit2D(Collider2D other)
     {
         isGrounded = false;
+
+        //animate
+        animator.SetBool("isJumping", true);
     }
 }
