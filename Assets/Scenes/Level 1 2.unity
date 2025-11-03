@@ -2117,9 +2117,9 @@ MonoBehaviour:
   NumberOfLives: 3
   NumberOfCoins: 0
   costPerExtraLife: 1
-  keyText: {fileID: 0}
+  keyText: {fileID: 484368946}
   livesText: {fileID: 484368946}
-  coinsText: {fileID: 0}
+  coinsText: {fileID: 484368946}
   keyClip: {fileID: 0}
   coinClip: {fileID: 0}
   spawnPoint: {x: 0, y: 0, z: 0}
@@ -54736,14 +54736,6 @@ CompositeCollider2D:
         Y: 100000000
       - X: 1060000000
         Y: 100000000
-    - - X: 1520000000
-        Y: 80000000
-      - X: 1490000000
-        Y: 80000000
-      - X: 1490000000
-        Y: 70000000
-      - X: 1520000000
-        Y: 70000000
     - - X: 1190000000
         Y: 80000000
       - X: 1160000000
@@ -54751,6 +54743,14 @@ CompositeCollider2D:
       - X: 1160000000
         Y: 70000000
       - X: 1190000000
+        Y: 70000000
+    - - X: 1520000000
+        Y: 80000000
+      - X: 1490000000
+        Y: 80000000
+      - X: 1490000000
+        Y: 70000000
+      - X: 1520000000
         Y: 70000000
     - - X: 3249999872
         Y: -10000000
@@ -55020,14 +55020,14 @@ CompositeCollider2D:
       - {x: 21.999971, y: -4}
       - {x: -9, y: -4.000029}
       - {x: -8.99997, y: -21}
-    - - {x: 118.99998, y: 7}
-      - {x: 118.99998, y: 8}
-      - {x: 116, y: 7.9999704}
-      - {x: 116.00003, y: 7}
     - - {x: 151.99997, y: 7}
       - {x: 151.99997, y: 8}
       - {x: 149, y: 7.9999704}
       - {x: 149.00003, y: 7}
+    - - {x: 118.99998, y: 7}
+      - {x: 118.99998, y: 8}
+      - {x: 116, y: 7.9999704}
+      - {x: 116.00003, y: 7}
     - - {x: 101.99997, y: 5}
       - {x: 101.99997, y: 6}
       - {x: 99, y: 5.999971}
@@ -55301,8 +55301,8 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -34.275394, y: -57.850765}
-  m_Radius: 23.777304
+  m_Offset: {x: -34.275394, y: -72.310486}
+  m_Radius: 38.237026
 --- !u!50 &1287439455
 Rigidbody2D:
   serializedVersion: 5
@@ -55417,7 +55417,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -33.530254, y: -79.221924}
+  m_Offset: {x: -33.530254, y: -94.62982}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -55427,7 +55427,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 100.15435, y: 9.729195}
+  m_Size: {x: 100.15435, y: 40.544983}
   m_EdgeRadius: 0
 --- !u!1 &1303656184
 GameObject:
@@ -60376,13 +60376,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1949438165}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.051745072, y: 0.998449, z: 0.00083379104, w: -0.02052751}
+  m_LocalRotation: {x: 0.052012075, y: 0.99843514, z: 0.0008283015, w: -0.020527728}
   m_LocalPosition: {x: 12.241, y: -3.794, z: 0}
   m_LocalScale: {x: 0.0053384523, y: 0.0053384523, z: 0.0053384523}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: -0.217, y: 182.344, z: 5.929}
+  m_LocalEulerAnglesHint: {x: -0.217, y: 182.344, z: 5.96}
 --- !u!50 &1949438169
 Rigidbody2D:
   serializedVersion: 5
