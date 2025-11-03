@@ -10,8 +10,6 @@ public class PlayerMovement : MonoBehaviour
 
     public bool isGrounded = false;
 
-    public bool shouldJump = false;
-
     Animator animator;
 
     SpriteRenderer spriteRenderer;
@@ -32,55 +30,42 @@ public class PlayerMovement : MonoBehaviour
 
         transform.Translate(new Vector3(horizontalInput, 0, 0) * moveSpeed * Time.deltaTime);
 
-        //animate
+        // animate!
         if (horizontalInput > 0)
         {
-            animator.SetBool("isWalking", true);
+            animator.SetBool("isRunning", true);
             spriteRenderer.flipX = false;
         }
         else if (horizontalInput < 0)
         {
-            animator.SetBool("isWalking", true);
+            animator.SetBool("isRunning", true);
             spriteRenderer.flipX = true;
         }
         else
         {
-            animator.SetBool("isWalking", false);
+            animator.SetBool("isRunning", false);
         }
 
+        // jumpy
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
-            shouldJump = true;
-        }
-    }
-
-    void FixedUpdate()
-    {
-        if (shouldJump == true)
-        {
-            // quickly set back to false so we don't double-jump
-            shouldJump = false;
-
             //push the rigidbody UP
             rb.AddForce(transform.up * jumpForce);
 
-            //animate
+            // animate!
             animator.SetBool("isJumping", true);
         }
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerStay2D(Collider2D other)
     {
         isGrounded = true;
-        //animate
+        // animate!
         animator.SetBool("isJumping", false);
     }
 
     void OnTriggerExit2D(Collider2D other)
     {
         isGrounded = false;
-
-        //animate
-        animator.SetBool("isJumping", true);
     }
 }
