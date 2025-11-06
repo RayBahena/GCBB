@@ -35,17 +35,17 @@ public class SideScrollingKnight : MonoBehaviour
         // animate!
         if (horizontalInput > 0)
         {
-            animator.SetBool("isRunning", true);
+            animator.SetBool("isWalking", true);
             spriteRenderer.flipX = false;
         }
         else if (horizontalInput < 0)
         {
-            animator.SetBool("isRunning", true);
+            animator.SetBool("isWalking", true);
             spriteRenderer.flipX = true;
         }
         else
         {
-            animator.SetBool("isRunning", false);
+            animator.SetBool("isWalking", false);
         }
 
         if (Input.GetButtonDown("Jump") && isGrounded)
