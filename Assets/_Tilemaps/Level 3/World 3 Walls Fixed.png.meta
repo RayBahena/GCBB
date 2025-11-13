@@ -1,0 +1,2995 @@
+fileFormatVersion: 2
+guid: d48820a6d0876cf468163089218a5475
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1133131110799464028
+    second: World 3 Walls Fixed_0
+  - first:
+      213: 6596506208412533379
+    second: World 3 Walls Fixed_1
+  - first:
+      213: 4865524237328847442
+    second: World 3 Walls Fixed_2
+  - first:
+      213: -7784968806910153589
+    second: World 3 Walls Fixed_3
+  - first:
+      213: -1088218638281438498
+    second: World 3 Walls Fixed_4
+  - first:
+      213: -9173795555725791661
+    second: World 3 Walls Fixed_5
+  - first:
+      213: -553937815019716968
+    second: World 3 Walls Fixed_6
+  - first:
+      213: -5900725839242610374
+    second: World 3 Walls Fixed_7
+  - first:
+      213: 8772296158805731896
+    second: World 3 Walls Fixed_8
+  - first:
+      213: -1058065319012667931
+    second: World 3 Walls Fixed_9
+  - first:
+      213: 4261332770763446182
+    second: World 3 Walls Fixed_10
+  - first:
+      213: 8847723989675825746
+    second: World 3 Walls Fixed_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 190
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2880
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c56552fddb0b9bf00800000000000000
+      internalID: 1133131110799464028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2880
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 382861f527f7b8b50800000000000000
+      internalID: 6596506208412533379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_2
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2880
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2521a04e380d58340800000000000000
+      internalID: 4865524237328847442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_3
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 2880
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8caf9cdd1c36f390800000000000000
+      internalID: -7784968806910153589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_4
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2880
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eda86430aeed5e0f0800000000000000
+      internalID: -1088218638281438498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_5
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 2880
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35e28e20c8120b080800000000000000
+      internalID: -9173795555725791661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_6
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 2880
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89ef71cfd740058f0800000000000000
+      internalID: -553937815019716968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_7
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2880
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a39b9f2dc196c1ea0800000000000000
+      internalID: -5900725839242610374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_8
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 2880
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83aa32af0e47db970800000000000000
+      internalID: 8772296158805731896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2688
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ede61fb23ff051f0800000000000000
+      internalID: -1058065319012667931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_10
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2688
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a71617d39b432b30800000000000000
+      internalID: 4261332770763446182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2688
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25a5453671e69ca70800000000000000
+      internalID: 8847723989675825746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_12
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 2688
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23efb9a5ebec1a34bb2b7be81e74749e
+      internalID: -306034446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_13
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2688
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c6f2fcf45c9c2439459d9784ed6f8e
+      internalID: -1040206087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_14
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2688
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69158d21f7c72ef4e9c979ba27352b85
+      internalID: -1915750363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_15
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 2688
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe811d6841acdcc41950436e1264957c
+      internalID: -945539149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_16
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 2688
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396194e842798ee4bb34aeb4e9e9d6c6
+      internalID: 1970592130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_17
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2688
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a39742858560c45b84745c359df86a
+      internalID: -194062590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_18
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 2688
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094d0385c605c804eae3db59418e2dff
+      internalID: 963220782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_19
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2688
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9d89c780858d341a9eb0c6f59a68a7
+      internalID: -404446858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2496
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb45f2483de4a9489ff2ba7965a4a9c
+      internalID: -504899880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_21
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2496
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711f68536fcc47d4e9d464ab7ef8fa66
+      internalID: 1423015964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_22
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2496
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6cd0d216be0d3f43b96c08c004e5a8c
+      internalID: -482732149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_23
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 2496
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ba8fad024dc84479e0f3139ee9162b
+      internalID: -977811351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_24
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2496
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf7c5d73d1a35f4196cda8b60300c13
+      internalID: 715889536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_25
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2496
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9f9901241f7dc4882be1d87c5da229
+      internalID: 1275729685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_26
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 2496
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b77de3c77e14e43b49fb777de1ee1a
+      internalID: -586663301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_27
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 2496
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff16ec08500366418abb3a6598d02d5
+      internalID: 978189321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_28
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2496
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1618b330eef442489ced77a3a848096
+      internalID: -1742460215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_29
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 2496
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4f7dfbd0689ce46bfbc4d7c78bb44f
+      internalID: -980810429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_30
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2496
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c92b994aac66d44ae4a92515dcefaa
+      internalID: -248573809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_31
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 2496
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba39271d355c74469f1400b05029a05
+      internalID: -1107265908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2304
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c927bc9ead1584cb972be235b9a2fe
+      internalID: 1563271435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_33
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2304
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299b00db0de052847a19a2de0df06ce3
+      internalID: 1991029121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_34
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2304
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9545b469e83cf814682373395e9cbe34
+      internalID: 1319263760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_35
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 2304
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822b9207ca5148644b5f786bbbdf02d6
+      internalID: -1933063973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_36
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2304
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b889cc9d4ef6b4cbe4b10b658de3c0
+      internalID: -1060992824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_37
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2304
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f119d2558a2794995d61ac0998d499
+      internalID: 378688216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_38
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 2304
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9033d0d1a2deb04b964352050910361
+      internalID: 1462045660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_39
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 2304
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e0d22ece38499498d8a988ad037cf0
+      internalID: 774676148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_40
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2304
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eceac256b4a32449ae2954890b05c34
+      internalID: -1508565768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_41
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 2304
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046aa92a18386e74b931f191e6b7f115
+      internalID: -1705205072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_42
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2304
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead44568f5c94724a899eb47aef32e04
+      internalID: 1475432857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_43
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 2304
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28290dc6325864544bf15ef5a710f22e
+      internalID: 2052220391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_44
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2112
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520f6262e309b4645a1e6e74679b4acf
+      internalID: -722715896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_45
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2112
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2732781e497919438e98069e473764d
+      internalID: 1954387121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_46
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 2112
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21de393576f54714789dcae83dce94ab
+      internalID: 1948248965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_47
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2112
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df010a53b2a6b2b41a68b2b10b1eccd7
+      internalID: 2003357791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_48
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2112
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2336f322557d764e9e1b9de657d21b0
+      internalID: -1825415909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_49
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 2112
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f82500efa6afa64ab5de48192f0f8e9
+      internalID: -2140654491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_50
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2112
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2e84c6f9f7d2b418d8f41935ee0c2d
+      internalID: 1225336183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_51
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 2112
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956df9273cfc00f4aa0b674fe88532a7
+      internalID: 1954569434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1920
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e877720bff85e148ae0352f12e42ca8
+      internalID: -1966291158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_53
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1920
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e612df12059354e8eb577da8ba1dd8
+      internalID: 937808935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_54
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1920
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fbb62a50587bb0459a5da03e9f32f2d
+      internalID: -51491961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_55
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1920
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba8dbe1390645d409ec216ac997f4fb
+      internalID: 1031273226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_56
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1920
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c41ec141679effd40ac777def657dedf
+      internalID: -474312587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_57
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1920
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c82f236118f8ae24f886e33795d64820
+      internalID: 1245410599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_58
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1920
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf59bfd62f55474187a2eb6ca14bdc3
+      internalID: 300472551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_59
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1920
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be9ecaadb5300d40bb3c1fe145f13ff
+      internalID: 124422505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_60
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1920
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62750742f9d63fd48839b2b9b48c9bf0
+      internalID: 202228986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_61
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1920
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 601681b7f53035241a1758af62c76dcc
+      internalID: 241321194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_62
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1920
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bab333b3b72a3443b5c77bb04cdc163
+      internalID: 1800291521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_63
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 1920
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf66daa15e099ee46b27ff9aa055a840
+      internalID: 1979905613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1728
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8efb2cf1b4c7e49979b361dabdb0b3
+      internalID: -1405158100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_65
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1728
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad8139dc623c054597e7a2307fb0dc0
+      internalID: -1939806206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_66
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1728
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8dd52ef9eca60478ccc56793830c91
+      internalID: -1295738748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_67
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1728
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aca5f0bddd45f24194fd0f33e305e61
+      internalID: 1360607435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_68
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1728
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c54c2a93cfca3f4f82758c96a205af8
+      internalID: 309277175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_69
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1728
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863ade0ccaa8120439f208f87283d628
+      internalID: 1356945148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_70
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1728
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f157e0d2e7956241b949a712f5b8271
+      internalID: -176921976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_71
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1728
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bcb8f59393dfaf4e9846517ac918aad
+      internalID: -242459874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_72
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1728
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0c484d20393ea4b89e0a1703eb6fa4
+      internalID: 1703168904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_73
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1728
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be71981609b84f5498b18d3a3f90d47f
+      internalID: 1023997505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_74
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1728
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d316b2da455bb204db7f4581c042ed68
+      internalID: -1343823288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_75
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 1728
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11050bb1f6d31bd4a917c0d041823b49
+      internalID: -1445485116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_76
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de91bf5ca7da624a87e9e6a974e9e4a
+      internalID: 1754922381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_77
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1536
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0b161de9eb9ce44aae6f9f4d3b6f37
+      internalID: 918622750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_78
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1536
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e66ca2fa6cb554d87c2a0422a2fabc
+      internalID: 1355307762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_79
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1536
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd1003d35eaf7e046a653b4b116e63cc
+      internalID: -355922795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_80
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1536
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc06d23c0b48ae14e863406238479efc
+      internalID: -13397434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_81
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1536
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efcbf829333210f4a8225f31bac8157c
+      internalID: -1178273484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_82
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1536
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd592b03301f6348a333077d802da0b
+      internalID: -1896011121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_83
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1536
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f05c0a0d5ac01449e2398a172a23b5
+      internalID: -1096221256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_84
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1536
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb426a185c5d28a4c9a11ee1b6eaf639
+      internalID: 387868689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_85
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1536
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0a0222229f676449bae72c8f725044
+      internalID: -513148409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_86
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1536
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c25009d7d71b6440b01a197fdc40e07
+      internalID: 1195952084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_87
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 1536
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0734e7da4bdb0c4d891306c41087c68
+      internalID: -1375006219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1344
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f35e90c62ee66da419211790312d5a17
+      internalID: -531442801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_89
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1344
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3002511ce0e2fe4eabe940017f6db6f
+      internalID: -1807484787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_90
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1344
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ffc357c1ce5b8b4abb0f070e8f96139
+      internalID: -2003203818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_91
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1344
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d0ba7f84929b24697df187a069e49e
+      internalID: 692421365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_92
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1344
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866ed5d0f2e907748ab073b54146c120
+      internalID: -130511773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_93
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1344
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ae9689a82f08f4ca26e68e0ef70674
+      internalID: -634003522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_94
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1344
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8442bf0c1998b846a10afd491cf50f3
+      internalID: -1258455433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_95
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1344
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b845279f0ca6249b7c313931ea791c
+      internalID: -713745706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_96
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1344
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75db8f16876a8894ab7a70390a5c3378
+      internalID: -1523589175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_97
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1344
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84939586f1a6784c9820e2b42f85d14
+      internalID: 1976550978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_98
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 1344
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1783a0a73a51534f9e824ac4a56f980
+      internalID: -1573846287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_99
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8e5b376c5519f4b8a71c637b1ba8f9
+      internalID: -829661465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_100
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1152
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b482eba1f11b9a419e724aa58ca4137
+      internalID: -891724618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_101
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1152
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 578a342108267cb43a147f95fb755460
+      internalID: -1296174023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_102
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1152
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878f729300fe96043a176323e024cf09
+      internalID: -2138623663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_103
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1152
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d54b0e8e90801240aa32d483725414c
+      internalID: -1166848844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_104
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1152
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8757f058e5f53bc4a90e14dab3ac9706
+      internalID: 136693055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_105
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1152
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa77b93f96523f8438f26cc718281772
+      internalID: 2084014092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_106
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 1152
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e3a66724e6bd8d44a5d75b86e4c856e
+      internalID: -187201054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_107
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b454b603f4820c438cb3f9ee3a07fcd
+      internalID: -205473771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_108
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 960
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bff492cd573f8e439199dea45043a5f
+      internalID: 1080540998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_109
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 960
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a47464c6a53bc4e86af5310a098173
+      internalID: -784333483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_110
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 960
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703b46beefc09d14385c6f7adc58cebf
+      internalID: 1918762167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_111
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 960
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf92c54890e46fc4093291eb824cf91a
+      internalID: 697533301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_112
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 960
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad648f261c7cdc7418f2710236cca294
+      internalID: -451907747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_113
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 960
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97cf2883a15709c4ba303be90ec3349c
+      internalID: -1132653480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_114
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 960
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e4dd7df20f9744ea5b9040f4238b5b
+      internalID: -1314783094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_115
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d1224b0836aae64891c60952aab5565
+      internalID: -557778916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_116
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 768
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9658e5bcbaecb3f40b82c83724301ad8
+      internalID: -708731748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_117
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b8736fac403a24bbb9587f7c84b3b6
+      internalID: 1363472893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_118
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 768
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a6f2869b9701d4b8d8027eab768ea7
+      internalID: 2106271349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_119
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172f195891270be42b76ddd6f3a135fb
+      internalID: -697609967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_120
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 768
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ced3cf28a22fca42ba817d8d6d6c351
+      internalID: 102013505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_121
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 768
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d53d1177febe2f74ba1eecd292e9a604
+      internalID: -1127383720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: World 3 Walls Fixed_122
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 768
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21afbf1e70dd2514281b1459b1883a6f
+      internalID: -114766060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 33e500a2a6c358f41adf033fc7499e57
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      World 3 Walls Fixed_0: 1133131110799464028
+      World 3 Walls Fixed_1: 6596506208412533379
+      World 3 Walls Fixed_10: 4261332770763446182
+      World 3 Walls Fixed_100: -891724618
+      World 3 Walls Fixed_101: -1296174023
+      World 3 Walls Fixed_102: -2138623663
+      World 3 Walls Fixed_103: -1166848844
+      World 3 Walls Fixed_104: 136693055
+      World 3 Walls Fixed_105: 2084014092
+      World 3 Walls Fixed_106: -187201054
+      World 3 Walls Fixed_107: -205473771
+      World 3 Walls Fixed_108: 1080540998
+      World 3 Walls Fixed_109: -784333483
+      World 3 Walls Fixed_11: 8847723989675825746
+      World 3 Walls Fixed_110: 1918762167
+      World 3 Walls Fixed_111: 697533301
+      World 3 Walls Fixed_112: -451907747
+      World 3 Walls Fixed_113: -1132653480
+      World 3 Walls Fixed_114: -1314783094
+      World 3 Walls Fixed_115: -557778916
+      World 3 Walls Fixed_116: -708731748
+      World 3 Walls Fixed_117: 1363472893
+      World 3 Walls Fixed_118: 2106271349
+      World 3 Walls Fixed_119: -697609967
+      World 3 Walls Fixed_12: -306034446
+      World 3 Walls Fixed_120: 102013505
+      World 3 Walls Fixed_121: -1127383720
+      World 3 Walls Fixed_122: -114766060
+      World 3 Walls Fixed_13: -1040206087
+      World 3 Walls Fixed_14: -1915750363
+      World 3 Walls Fixed_15: -945539149
+      World 3 Walls Fixed_16: 1970592130
+      World 3 Walls Fixed_17: -194062590
+      World 3 Walls Fixed_18: 963220782
+      World 3 Walls Fixed_19: -404446858
+      World 3 Walls Fixed_2: 4865524237328847442
+      World 3 Walls Fixed_20: -504899880
+      World 3 Walls Fixed_21: 1423015964
+      World 3 Walls Fixed_22: -482732149
+      World 3 Walls Fixed_23: -977811351
+      World 3 Walls Fixed_24: 715889536
+      World 3 Walls Fixed_25: 1275729685
+      World 3 Walls Fixed_26: -586663301
+      World 3 Walls Fixed_27: 978189321
+      World 3 Walls Fixed_28: -1742460215
+      World 3 Walls Fixed_29: -980810429
+      World 3 Walls Fixed_3: -7784968806910153589
+      World 3 Walls Fixed_30: -248573809
+      World 3 Walls Fixed_31: -1107265908
+      World 3 Walls Fixed_32: 1563271435
+      World 3 Walls Fixed_33: 1991029121
+      World 3 Walls Fixed_34: 1319263760
+      World 3 Walls Fixed_35: -1933063973
+      World 3 Walls Fixed_36: -1060992824
+      World 3 Walls Fixed_37: 378688216
+      World 3 Walls Fixed_38: 1462045660
+      World 3 Walls Fixed_39: 774676148
+      World 3 Walls Fixed_4: -1088218638281438498
+      World 3 Walls Fixed_40: -1508565768
+      World 3 Walls Fixed_41: -1705205072
+      World 3 Walls Fixed_42: 1475432857
+      World 3 Walls Fixed_43: 2052220391
+      World 3 Walls Fixed_44: -722715896
+      World 3 Walls Fixed_45: 1954387121
+      World 3 Walls Fixed_46: 1948248965
+      World 3 Walls Fixed_47: 2003357791
+      World 3 Walls Fixed_48: -1825415909
+      World 3 Walls Fixed_49: -2140654491
+      World 3 Walls Fixed_5: -9173795555725791661
+      World 3 Walls Fixed_50: 1225336183
+      World 3 Walls Fixed_51: 1954569434
+      World 3 Walls Fixed_52: -1966291158
+      World 3 Walls Fixed_53: 937808935
+      World 3 Walls Fixed_54: -51491961
+      World 3 Walls Fixed_55: 1031273226
+      World 3 Walls Fixed_56: -474312587
+      World 3 Walls Fixed_57: 1245410599
+      World 3 Walls Fixed_58: 300472551
+      World 3 Walls Fixed_59: 124422505
+      World 3 Walls Fixed_6: -553937815019716968
+      World 3 Walls Fixed_60: 202228986
+      World 3 Walls Fixed_61: 241321194
+      World 3 Walls Fixed_62: 1800291521
+      World 3 Walls Fixed_63: 1979905613
+      World 3 Walls Fixed_64: -1405158100
+      World 3 Walls Fixed_65: -1939806206
+      World 3 Walls Fixed_66: -1295738748
+      World 3 Walls Fixed_67: 1360607435
+      World 3 Walls Fixed_68: 309277175
+      World 3 Walls Fixed_69: 1356945148
+      World 3 Walls Fixed_7: -5900725839242610374
+      World 3 Walls Fixed_70: -176921976
+      World 3 Walls Fixed_71: -242459874
+      World 3 Walls Fixed_72: 1703168904
+      World 3 Walls Fixed_73: 1023997505
+      World 3 Walls Fixed_74: -1343823288
+      World 3 Walls Fixed_75: -1445485116
+      World 3 Walls Fixed_76: 1754922381
+      World 3 Walls Fixed_77: 918622750
+      World 3 Walls Fixed_78: 1355307762
+      World 3 Walls Fixed_79: -355922795
+      World 3 Walls Fixed_8: 8772296158805731896
+      World 3 Walls Fixed_80: -13397434
+      World 3 Walls Fixed_81: -1178273484
+      World 3 Walls Fixed_82: -1896011121
+      World 3 Walls Fixed_83: -1096221256
+      World 3 Walls Fixed_84: 387868689
+      World 3 Walls Fixed_85: -513148409
+      World 3 Walls Fixed_86: 1195952084
+      World 3 Walls Fixed_87: -1375006219
+      World 3 Walls Fixed_88: -531442801
+      World 3 Walls Fixed_89: -1807484787
+      World 3 Walls Fixed_9: -1058065319012667931
+      World 3 Walls Fixed_90: -2003203818
+      World 3 Walls Fixed_91: 692421365
+      World 3 Walls Fixed_92: -130511773
+      World 3 Walls Fixed_93: -634003522
+      World 3 Walls Fixed_94: -1258455433
+      World 3 Walls Fixed_95: -713745706
+      World 3 Walls Fixed_96: -1523589175
+      World 3 Walls Fixed_97: 1976550978
+      World 3 Walls Fixed_98: -1573846287
+      World 3 Walls Fixed_99: -829661465
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
