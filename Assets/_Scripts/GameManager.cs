@@ -5,19 +5,16 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     //number to count
-    public int NumberOfKeys = 0;
     public int NumberOfLives = 3;
-    public int NumberOfCoins = 0;
+    public int NumberOfDumplings = 0;
     public int costPerExtraLife = 10;
 
     //texts to update in the UI
-    public TextMeshProUGUI keyText;
     public TextMeshProUGUI livesText;
-    public TextMeshProUGUI coinsText;
+    public TextMeshProUGUI DumplingsText;
 
     //sounds to play
-    public AudioClip keyClip;
-    public AudioClip coinClip;
+    public AudioClip DumplingsClip;
 
     public UnityEngine.Vector3 spawnPoint;
     public AudioSource audioSource;
@@ -33,14 +30,13 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        keyText.text = "Keys Found: " + NumberOfKeys;
         livesText.text = "Lives Left: " + NumberOfLives;
-        coinsText.text = "Coins Collected: " + NumberOfCoins;
+        DumplingsText.text = "Coins Collected: " + NumberOfDumplings;
 
         // check coin count
-        if (NumberOfCoins == costPerExtraLife)
+        if (NumberOfDumplings == costPerExtraLife)
         {
-            NumberOfCoins = 0;
+            NumberOfDumplings = 0;
             NumberOfLives++;
         }
     }

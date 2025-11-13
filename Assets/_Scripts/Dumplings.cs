@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PickUp : MonoBehaviour
+public class Dumplings : MonoBehaviour
 {
      GameManager gameManager;
     void Start()
@@ -10,9 +10,9 @@ public class PickUp : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other) {
         if (other.gameObject.tag == "Player")
         {
-            gameManager.NumberOfCoins++;
+            gameManager.NumberOfDumplings++;
             // Code to give the player a key goes here
-            gameManager.audioSource.clip = gameManager.coinClip;
+            gameManager.audioSource.clip = gameManager.DumplingsClip;
             gameManager.audioSource.Play();
             Destroy(gameObject);
         }
