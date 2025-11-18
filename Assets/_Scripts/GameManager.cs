@@ -30,14 +30,14 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        livesText.text = "Lives Left: " + NumberOfLives;
-        DumplingsText.text = "Coins Collected: " + NumberOfDumplings;
+        livesText.text = "Lives: " + NumberOfLives;
+        DumplingsText.text = "Dumplings: " + NumberOfDumplings;
 
         // check coin count
-        if (NumberOfDumplings == costPerExtraLife)
-        {
-            NumberOfDumplings = 0;
+        if (NumberOfDumplings >= costPerExtraLife){
+            NumberOfDumplings -= costPerExtraLife; 
             NumberOfLives++;
         }
+
     }
 }

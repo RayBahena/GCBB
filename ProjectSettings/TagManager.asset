@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - AttackPoint
+  - Ground
   layers:
   - Default
   - TransparentFX
