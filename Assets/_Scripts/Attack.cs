@@ -52,7 +52,7 @@ public class Attack : MonoBehaviour
         }
         else
         {
-            // fire left, a.k.a. "negative right"
+            // fire left, "negative right"
             tempRigidBody.AddForce(-transform.right * bulletForce);
         }
 
