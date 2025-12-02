@@ -2,22 +2,14 @@ using UnityEngine;
 
 public class EpicHalfWin : MonoBehaviour
 {
-    GameManager gameManager;
-    public Color startColor = Color.red;
-    public Color endColor = Color.green;
-    void Start()
-    {
-        gameManager = GameObject.Find("Canvas").GetComponent<GameManager>();
-        GetComponent<SpriteRenderer>().color = startColor; 
-    }
+    private bool activated = false;
 
-    private void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Player")
+        if (other.CompareTag("Player") && !activated)
         {
-            gameManager.spawnPoint = transform.position;
-            GetComponent<SpriteRenderer>().color = endColor;
+            other.GetComponent<PlayerRespawn>().SetCheckpoint(transform.position);
+            activated = true;
         }
     }
-    
 }

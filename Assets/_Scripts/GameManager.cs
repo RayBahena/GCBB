@@ -19,7 +19,7 @@ public class GameManager : MonoBehaviour
     public UnityEngine.Vector3 spawnPoint;
     public AudioSource audioSource;
 
-    
+    public GameObject gameOverUI;
     void Start()
     {
         spawnPoint = new UnityEngine.Vector3(-4f, -2f, 0);
@@ -39,5 +39,9 @@ public class GameManager : MonoBehaviour
             NumberOfLives++;
         }
 
+    }
+    public void gameOver()
+    {
+        gameOverUI.SetActive(true);
     }
 }

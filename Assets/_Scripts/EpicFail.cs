@@ -16,12 +16,16 @@ public class EpicFail : MonoBehaviour
         {
             if (gameManager.NumberOfLives == 0)
             {
+                // Reload the scene
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             }
             else
             {
+                // Lose a life
                 gameManager.NumberOfLives--;
-                other.transform.position = gameManager.spawnPoint;
+
+                // NEW CHECKPOINT SYSTEM:
+                other.GetComponent<PlayerRespawn>().RespawnPlayer();
             }
         }
     }
