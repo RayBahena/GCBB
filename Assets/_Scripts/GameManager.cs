@@ -5,9 +5,9 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     //number to count
-    public int NumberOfLives = 3;
+    public int NumberOfLives = 5;
     public int NumberOfDumplings = 0;
-    public int costPerExtraLife = 10;
+    public int costPerExtraLife = 50;
 
     //texts to update in the UI
     public TextMeshProUGUI livesText;
@@ -30,8 +30,9 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        livesText.text = "Lives: " + NumberOfLives;
-        DumplingsText.text = "Dumplings: " + NumberOfDumplings;
+        
+        DumplingsText.text = NumberOfDumplings.ToString();
+
 
         // check coin count
         if (NumberOfDumplings >= costPerExtraLife){
