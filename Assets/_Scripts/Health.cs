@@ -9,10 +9,11 @@ public class Health : MonoBehaviour {
     public Image[] croisants;
     public Sprite fullCroissant;
     public Sprite emptyCroissant;
-    GameManager gameManager;
+    public GameManager gameManager;
      void Start()
     {
         gameManager = FindObjectOfType<GameManager>();
+        
     }
     public void Update()
     {

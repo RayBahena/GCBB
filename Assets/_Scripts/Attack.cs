@@ -31,7 +31,7 @@ public class Attack : MonoBehaviour
 
         if (Input.GetButtonDown("Fire1"))
         {
-            animator.SetTrigger("doAttack");
+            animator.SetTrigger("isAttacking");
             FireBullet();
         }
     }
