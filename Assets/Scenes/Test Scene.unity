@@ -119,30 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &171207 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6626658163773241313, guid: dfc149f8deb488e46ad88f4144bacff6, type: 3}
-  m_PrefabInstance: {fileID: 492162893}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &171214
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 171207}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a36111b1b6f7043afa43d78886fc5daa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bullet: {fileID: 1400020525100087532, guid: a90c2c222ef6848309f3bcef996df1fa, type: 3}
-  bulletPos: {fileID: 441306561}
---- !u!4 &441306561 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4982474786971852708, guid: dfc149f8deb488e46ad88f4144bacff6, type: 3}
-  m_PrefabInstance: {fileID: 492162893}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &483264558
 GameObject:
   m_ObjectHideFlags: 0
@@ -803,11 +779,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6147440156265196169, guid: dfc149f8deb488e46ad88f4144bacff6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.059128687
+      value: 3.05
       objectReference: {fileID: 0}
     - target: {fileID: 6147440156265196169, guid: dfc149f8deb488e46ad88f4144bacff6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.6560829
+      value: -2.21
       objectReference: {fileID: 0}
     - target: {fileID: 6147440156265196169, guid: dfc149f8deb488e46ad88f4144bacff6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -841,26 +817,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6189698557227208910, guid: dfc149f8deb488e46ad88f4144bacff6, type: 3}
-      propertyPath: m_Size.x
-      value: 18.859097
-      objectReference: {fileID: 0}
-    - target: {fileID: 6189698557227208910, guid: dfc149f8deb488e46ad88f4144bacff6, type: 3}
-      propertyPath: m_Size.y
-      value: 16.150665
-      objectReference: {fileID: 0}
-    - target: {fileID: 6189698557227208910, guid: dfc149f8deb488e46ad88f4144bacff6, type: 3}
-      propertyPath: m_Offset.x
-      value: -0.05015421
-      objectReference: {fileID: 0}
-    - target: {fileID: 6189698557227208910, guid: dfc149f8deb488e46ad88f4144bacff6, type: 3}
-      propertyPath: m_Offset.y
-      value: -4.5140657
-      objectReference: {fileID: 0}
-    - target: {fileID: 6189698557227208910, guid: dfc149f8deb488e46ad88f4144bacff6, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6626658163773241313, guid: dfc149f8deb488e46ad88f4144bacff6, type: 3}
       propertyPath: m_Name
       value: Fuzzwitch Idle Bop_0
@@ -868,10 +824,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6626658163773241313, guid: dfc149f8deb488e46ad88f4144bacff6, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 171214}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfc149f8deb488e46ad88f4144bacff6, type: 3}
 --- !u!1 &519420028
 GameObject:

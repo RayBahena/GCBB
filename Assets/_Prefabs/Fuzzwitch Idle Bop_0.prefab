@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4982474786971852708}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Fire Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45,7 +45,9 @@ GameObject:
   - component: {fileID: 1918495628348216222}
   - component: {fileID: 5856611018461664363}
   - component: {fileID: 6189698557227208910}
-  m_Layer: 0
+  - component: {fileID: 7296214260029017515}
+  - component: {fileID: 7155707539877451599}
+  m_Layer: 3
   m_Name: Fuzzwitch Idle Bop_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -318,11 +320,11 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.05015421, y: -4.5140657}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -332,5 +334,32 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 32, y: 32}
+  m_Size: {x: 18.859097, y: 16.150665}
   m_EdgeRadius: 0
+--- !u!114 &7296214260029017515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6626658163773241313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a36111b1b6f7043afa43d78886fc5daa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 1400020525100087532, guid: a90c2c222ef6848309f3bcef996df1fa, type: 3}
+  bulletPos: {fileID: 4982474786971852708}
+--- !u!114 &7155707539877451599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6626658163773241313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a733240bf8713d42aead0085ff79e69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 1
