@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class EnemyHealth : MonoBehaviour
+public class EnemyHealthScript : MonoBehaviour
 {
     public int maxHealth = 1;
     private int currentHealth;

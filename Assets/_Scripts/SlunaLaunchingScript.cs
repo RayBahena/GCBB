@@ -24,8 +24,6 @@ public class SlunaLaunchingScript : MonoBehaviour
     private SpriteRenderer sr;
     private Animator animator;
     private GameObject player;
-    
-    private bool isLaunching = false;
     private bool isGrounded = true;
     private bool canLaunch = true;
     private float launchTimer = 0f;

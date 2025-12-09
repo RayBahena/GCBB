@@ -2,61 +2,76 @@ using UnityEngine;
 
 public class Attack : MonoBehaviour
 {
-   public GameObject bullet;
-    public GameObject firePoint;
+    [Header("Melee Settings")]
+    public GameObject attackPoint;
+    public float radius = 1f;
+    public LayerMask enemies;
+    public int meleeDamage = 1;
 
-    Animator animator;
+    [Header("Ranged Settings")]
+    public GameObject bullet;
+    public Transform firePoint;
+    public float bulletForce = 1500f;
 
-    public bool fireForward = true;
-    public float bulletForce = 1500.0f;
-
+    private Animator animator;
+    private SpriteRenderer sr;
+    private bool fireForward = true;
 
     void Start()
     {
         animator = GetComponent<Animator>();
+        sr = GetComponent<SpriteRenderer>();
     }
-    
+
     void Update()
     {
-        float horizontalInput = Input.GetAxis("Horizontal");
+        // Read facing direction from sprite flip (BEST way)
+        fireForward = !sr.flipX;
 
-        if (horizontalInput > 0)
+        // Melee attack
+        if (Input.GetMouseButtonDown(0))
         {
-            fireForward = true;
-        }
-        else if (horizontalInput < 0)
-        {
-            fireForward = false;
+            animator.SetTrigger("isMelee");
         }
 
-        if (Input.GetButtonDown("Fire1"))
+        // Ranged attack
+        if (Input.GetMouseButtonDown(1))
         {
             animator.SetTrigger("isAttacking");
-            FireBullet();
         }
     }
 
-    void FireBullet()
+    // Called by animation event
+    public void MeleeAttack()
     {
-        // Bullet instantiate at the position of GameObject
-        GameObject newBullet = Instantiate(bullet, firePoint.transform.position, firePoint.transform.rotation) as GameObject;
+        Collider2D[] enemiesHit = Physics2D.OverlapCircleAll(attackPoint.transform.position, radius, enemies);
 
-        // get Rigidbody2D component of instantiated Bullet
-        Rigidbody2D tempRigidBody = newBullet.GetComponent<Rigidbody2D>();
-
-        // push the Bullet forward by amount bulletForce
-        if (fireForward)
+        foreach (var e in enemiesHit)
         {
-            // fireForward is fire to the right
-            tempRigidBody.AddForce(transform.right * bulletForce);
+            var health = e.GetComponent<EnemyHealthScript>();
+            if (health != null)
+                health.TakeDamage(meleeDamage);
         }
-        else
-        {
-            // fire left, "negative right"
-            tempRigidBody.AddForce(-transform.right * bulletForce);
-        }
+    }
 
-        // basic Clean Up, set Bullets to self destruct after 2 seconds
-        Destroy(newBullet, 2.0f);
+    // Called by animation event
+    public void FireBullet()
+    {
+        GameObject newBullet = Instantiate(bullet, firePoint.position, Quaternion.identity);
+        Rigidbody2D rb = newBullet.GetComponent<Rigidbody2D>();
+
+        Vector2 dir = fireForward ? Vector2.right : Vector2.left;
+        rb.AddForce(dir * bulletForce);
+
+        Destroy(newBullet, 2f);
+    }
+
+    void OnDrawGizmosSelected()
+    {
+        if (attackPoint != null)
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere(attackPoint.transform.position, radius);
+        }
     }
 }

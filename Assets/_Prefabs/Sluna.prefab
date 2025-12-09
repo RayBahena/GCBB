@@ -16,6 +16,8 @@ GameObject:
   - component: {fileID: 5336660965673516908}
   - component: {fileID: 8521331138166912904}
   - component: {fileID: -7379943096053835371}
+  - component: {fileID: 8951448166987099182}
+  - component: {fileID: 4168966633222112328}
   m_Layer: 0
   m_Name: Sluna
   m_TagString: Untagged
@@ -378,14 +380,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cb0032706d6a4370abd598b46143771, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 2
+  moveSpeed: 1
   patrolDistance: 2
-  detectionRange: 3
-  launchForce: 5
-  arcHeight: 2
+  detectionRange: 2
+  launchForce: 2
+  arcHeight: 1
   launchCooldown: 2
   damage: 1
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
   groundCheckDistance: 0.1
+--- !u!114 &8951448166987099182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3708476587711856761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c8f47bfa316c4b54b23128ec7190d68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4168966633222112328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3708476587711856761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a733240bf8713d42aead0085ff79e69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 1

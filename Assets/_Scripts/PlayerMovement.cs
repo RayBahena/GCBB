@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviour
     //movement vars
     public float HorizontalVelocity { get; private set; }
     private bool _isFacingRight = true;
+    private Animator animator;
 
     //collision Check vars
     private RaycastHit2D _groundHit;
@@ -74,11 +75,10 @@ public class PlayerMovement : MonoBehaviour
     private float _dashFastFallTime;
     private float _dashFastFallReleaseSpeed;
 
-
-
-    private void Awake()
+    private void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     private void Update ()
@@ -121,6 +121,14 @@ public class PlayerMovement : MonoBehaviour
             }
         }
         ApplyVelocity();
+
+        // Horizontal movement
+        animator.SetBool("isWalking", Mathf.Abs(_rb.linearVelocity.x) > 0.1f);
+
+        // Vertical movement / jumping
+        animator.SetBool("isJumping", VerticalVelocity > 0.1f); // rising
+        animator.SetBool("inAir", !_isGrounded); // any airborne state
+
     }
 
     private void ApplyVelocity()
