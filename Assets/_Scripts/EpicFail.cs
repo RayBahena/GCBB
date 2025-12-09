@@ -28,5 +28,13 @@ public class EpicFail : MonoBehaviour
                 other.GetComponent<PlayerRespawn>().RespawnPlayer();
             }
         }
+        if (other.CompareTag("Player"))
+        {
+            Health playerHealth = other.GetComponent<Health>();
+            if (playerHealth != null)
+            {
+                playerHealth.TakeDamage(1);
+            }
+        }
     }
 }

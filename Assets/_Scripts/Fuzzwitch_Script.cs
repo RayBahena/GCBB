@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class EnemyScript : MonoBehaviour
+public class Fuzzwitch_Script : MonoBehaviour
 {
     public GameObject bullet;
     public Transform bulletPos;

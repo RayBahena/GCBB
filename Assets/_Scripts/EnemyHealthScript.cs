@@ -1,19 +1,28 @@
 using UnityEngine;
 
-public class EnemyHealthScript : MonoBehaviour , IDamageable
+public class EnemyHealth : MonoBehaviour
 {
-    [SerializeField] private float maxHealth = 1f;
+    public int maxHealth = 1;
+    private int currentHealth;
 
-    private float currentHealth;
-
-    private void Start()
+    void Start()
     {
         currentHealth = maxHealth;
     }
 
-    public void Damage(float damageAmount)
+    // Detect bullet hits
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        currentHealth -= damageAmount;
+        if (collision.CompareTag("Bullet"))
+        {
+            TakeDamage(1); // Subtract 1 health per bullet hit
+            Destroy(collision.gameObject); // Remove the bullet
+        }
+    }
+
+    public void TakeDamage(int amount)
+    {
+        currentHealth -= amount;
 
         if (currentHealth <= 0)
         {
@@ -23,6 +32,7 @@ public class EnemyHealthScript : MonoBehaviour , IDamageable
 
     private void Die()
     {
-        Destroy(gameObject);
+        // Play death animation, effects, etc. here
+        Destroy(gameObject); // Remove the enemy from the scene
     }
 }

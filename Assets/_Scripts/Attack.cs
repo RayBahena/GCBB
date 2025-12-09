@@ -15,7 +15,7 @@ public class Attack : MonoBehaviour
     {
         animator = GetComponent<Animator>();
     }
-
+    
     void Update()
     {
         float horizontalInput = Input.GetAxis("Horizontal");

@@ -6,6 +6,8 @@ TagManager:
   tags:
   - AttackPoint
   - Ground
+  - Enemy
+  - Bullet
   layers:
   - Default
   - TransparentFX

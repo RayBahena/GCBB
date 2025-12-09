@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 1231479813735430862}
   - component: {fileID: 5711851788857411523}
   - component: {fileID: 6771915198461601861}
-  - component: {fileID: 461517861607674780}
   - component: {fileID: 6707692921478291417}
   - component: {fileID: 5336660965673516908}
   - component: {fileID: 8521331138166912904}
+  - component: {fileID: -7379943096053835371}
   m_Layer: 0
   m_Name: Sluna
   m_TagString: Untagged
@@ -127,20 +127,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c8f47bfa316c4b54b23128ec7190d68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &461517861607674780
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3708476587711856761}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0dacfe5f1591480eb3babba8a07eaad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 0.5
-  patrolDistance: 3
 --- !u!60 &6707692921478291417
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -333,7 +319,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &8521331138166912904
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -380,3 +366,26 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 61.262558, y: 64.48867}
   m_EdgeRadius: 0
+--- !u!114 &-7379943096053835371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3708476587711856761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cb0032706d6a4370abd598b46143771, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 2
+  patrolDistance: 2
+  detectionRange: 3
+  launchForce: 5
+  arcHeight: 2
+  launchCooldown: 2
+  damage: 1
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  groundCheckDistance: 0.1

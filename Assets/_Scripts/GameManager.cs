@@ -28,11 +28,12 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
+
         // Update dumplings UI
         DumplingsText.text = NumberOfDumplings.ToString();
 
         // Buy extra life
-        if (NumberOfDumplings >= costPerExtraLife)
+       while (NumberOfDumplings >= costPerExtraLife)
         {
             NumberOfDumplings -= costPerExtraLife;
             NumberOfLives++;
@@ -42,6 +43,7 @@ public class GameManager : MonoBehaviour
         if (NumberOfLives <= 0 && !isDead)
         {
             isDead = true;
+            gameObject.SetActive(false);
             gameOver();
         }
     }
@@ -54,5 +56,15 @@ public class GameManager : MonoBehaviour
     public void restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+
+    public void quit()
+    {
+        Application.Quit();
     }
 }

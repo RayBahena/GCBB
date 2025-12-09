@@ -12,11 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77fe27d07a0ce469f889c565ef1b7e83, type: 3}
   m_Name: Player Movement Stats
   m_EditorClassIdentifier: 
+  MoveThreshold: 0.25
   MaxWalkSpeed: 12.5
   GroundAcceleration: 5
   GroundDeceleration: 20
   AirAcceleration: 5
   AirDeceleration: 5
+  WallJumpMoveAcceleration: 5
+  WallJumpMoveDeceleration: 20
   MaxRunSpeed: 20
   GroundLayer:
     serializedVersion: 2
@@ -24,19 +27,38 @@ MonoBehaviour:
   GroundDetectionRayLength: 0.02
   HeadDetectionRayLength: 0.02
   HeadWidth: 0.5
+  WallDetectionRayLength: 0.15
+  WallDetectionRayHeighMultiplier: 0.9
   JumpHeight: 3
   JumpHeightCompensationFactor: 1.054
   TimeTillJumpApex: 0.35
   GravityOnReleaseMultiplier: 1.4
   MaxFallSpeed: 10
   NumberOfJumpsAllowed: 2
+  ResetJumpsOnWallSlide: 1
   TimeForUpwardsCancel: 0.027
   ApexThreshold: 0.97
   ApexHangTime: 0.075
   JumpBufferTime: 0.125
   JumpCoyoteTime: 0.1
-  DebugShowIsGroundedBox: 0
-  DebugShowHeadBumpBox: 0
+  WallSlideSpeed: 5
+  WallSlideDecelerationSpeed: 1
+  WallJumpDirection: {x: -0.70710677, y: 0.70710677}
+  WallJumpVelocity: {x: -20, y: 6.5}
+  WallJumpPostBufferTime: 0.125
+  WallJumpGravityOnReleaseMultiplier: 1
+  DashTime: 0.11
+  DashSpeed: 40
+  TimeBtwDashesOnGround: 0.4
+  ResetDashOnWallSlide: 1
+  NumberOfDashes: 2
+  DashDiagonallyBias: 0.4
+  DashGravityOnReleaseMultiplier: 1
+  DashTimeForUpwardsCancel: 0.027
+  DebugShowIsGrounded: 0
+  DebugShowHeadRays: 0
+  DebugShowWallHit: 0
+  ExtraRayDebugDistance: 0.25
   ShowWalkJumpArc: 0
   ShowRunJumpArc: 0
   StopOnCollision: 1
