@@ -170,7 +170,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -327.96277, y: 52.89416}
+  m_AnchoredPosition: {x: -327, y: 75}
   m_SizeDelta: {x: 39.2069, y: 40.7061}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3631565729358922566
@@ -320,10 +320,10 @@ RectTransform:
   - {fileID: 5428815666543921816}
   - {fileID: 6052131072229685775}
   - {fileID: 789593048847163328}
-  - {fileID: 4886829422040638476}
-  - {fileID: 337722955859081887}
-  - {fileID: 4610109629151031216}
   - {fileID: 2984472520762216156}
+  - {fileID: 4610109629151031216}
+  - {fileID: 337722955859081887}
+  - {fileID: 4886829422040638476}
   - {fileID: 209777820670873908}
   - {fileID: 7310220400513966484}
   m_Father: {fileID: 0}
@@ -790,7 +790,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2720516184313875842}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: quit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5088994986778904466
 GameObject:
   m_ObjectHideFlags: 0
@@ -856,7 +868,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Dumplings:
+  m_text: '
 
 '
   m_isRightToLeft: 0
@@ -1263,7 +1275,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8577362680972607645}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: MainMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &7082909511786576318
 GameObject:
   m_ObjectHideFlags: 0
@@ -1459,7 +1483,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4307188763538079753}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: restart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &7225122752162059793
 GameObject:
   m_ObjectHideFlags: 0

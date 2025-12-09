@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 1910342715251098950}
   - component: {fileID: 7615907975157951254}
   - component: {fileID: 5792042884208959791}
+  - component: {fileID: 3818184822163272609}
   m_Layer: 0
   m_Name: Lil Jimbob
   m_TagString: Untagged
@@ -494,3 +495,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c8f47bfa316c4b54b23128ec7190d68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3818184822163272609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3197801884964397897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a733240bf8713d42aead0085ff79e69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 1

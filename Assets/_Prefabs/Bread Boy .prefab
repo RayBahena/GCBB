@@ -293,12 +293,13 @@ GameObject:
   - component: {fileID: 2780119581675764857}
   - component: {fileID: 3107101134305395762}
   - component: {fileID: 9126842728434234178}
-  - component: {fileID: 2543784368003549992}
   - component: {fileID: 3949893385199253462}
   - component: {fileID: 9207793940104049056}
   - component: {fileID: 7150316081592484284}
-  - component: {fileID: 8897000841767991310}
-  - component: {fileID: 2455724830322642590}
+  - component: {fileID: 5175597132362344529}
+  - component: {fileID: 5127306673114069025}
+  - component: {fileID: 7076941981535682503}
+  - component: {fileID: 4785997226398370582}
   m_Layer: 0
   m_Name: 'Bread Boy '
   m_TagString: Player
@@ -466,42 +467,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!58 &2543784368003549992
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3151855945663874524}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: -79.388565}
-  m_Radius: 29.817081
 --- !u!114 &3949893385199253462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -514,11 +479,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d6e7f5c4e90c46efa001eabac594cad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackPoint: {fileID: 0}
-  radius: 1
+  attackPoint: {fileID: 3378056558805943132}
+  radius: 0.5
   enemies:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   meleeDamage: 1
   bullet: {fileID: 6549113564962614811, guid: 4c80ba3b7d98450459e4ed5d929d8b81, type: 3}
   firePoint: {fileID: 7712150231314041125}
@@ -534,11 +499,11 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 15990a78767a3c248a2db07654d16ea0, type: 3}
+  m_Resource: {fileID: 8300000, guid: 2d30d7f17dcab35409645de2130a4ef0, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -638,7 +603,22 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   damageAmount: 1
---- !u!114 &8897000841767991310
+--- !u!114 &5175597132362344529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3151855945663874524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c583a501cb1384742ae6e2707301172e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Movestats: {fileID: 11400000, guid: a583491cd096247c79071fce34545bce, type: 2}
+  _feetcoll: {fileID: 9074679228752375071}
+  _bodycoll: {fileID: 1569089714198248064}
+--- !u!114 &5127306673114069025
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -652,10 +632,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 5
   maxHealth: 5
-  croisants: []
-  fullCroisant: {fileID: 4688223348862734703, guid: fef4a3f1d38c82945a4d96695e9fa695, type: 3}
-  emptyCroisant: {fileID: -4401248563565036290, guid: fef4a3f1d38c82945a4d96695e9fa695, type: 3}
---- !u!114 &2455724830322642590
+  croisants:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  fullCroisant: {fileID: -3248136554092355263, guid: 38b8e159e117e6045967e4a29a1373cc, type: 3}
+  emptyCroisant: {fileID: 5206052538469061688, guid: 3d24dd8929b3ad047be49c251dedf6c6, type: 3}
+--- !u!114 &7076941981535682503
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -664,11 +649,55 @@ MonoBehaviour:
   m_GameObject: {fileID: 3151855945663874524}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ede098821d62ff46bb1f7a281e29a55, type: 3}
+  m_Script: {fileID: 11500000, guid: ba7e2c63843f6413da107de7dcc61c35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 10
-  jumpForce: 12
+--- !u!61 &4785997226398370582
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3151855945663874524}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 7.40662, y: -76.45272}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.3, y: 0.5}
+    oldSize: {x: 200, y: 200}
+    newSize: {x: 200, y: 200}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 43.74833, y: 2.968216}
+  m_EdgeRadius: 0
 --- !u!1 &3378056558805943132
 GameObject:
   m_ObjectHideFlags: 0
@@ -679,7 +708,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6918471602026285382}
   m_Layer: 0
-  m_Name: AttackTransform
+  m_Name: AttackPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
