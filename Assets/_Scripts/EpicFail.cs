@@ -7,7 +7,7 @@ public class EpicFail : MonoBehaviour
 
     void Start()
     {
-        gameManager = FindObjectOfType<GameManager>();
+        gameManager = FindFirstObjectByType<GameManager>();
     }
 
     void OnTriggerEnter2D(Collider2D other)

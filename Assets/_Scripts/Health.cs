@@ -12,7 +12,7 @@ public class Health : MonoBehaviour {
     public GameManager gameManager;
      void Start()
     {
-        gameManager = FindObjectOfType<GameManager>();
+        gameManager = FindFirstObjectByType<GameManager>();
         
     }
     public void Update()

@@ -6,7 +6,7 @@ public class Dumplings : MonoBehaviour
 
     void Start()
     {
-        gameManager = FindObjectOfType<GameManager>();
+        gameManager = FindFirstObjectByType<GameManager>();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
