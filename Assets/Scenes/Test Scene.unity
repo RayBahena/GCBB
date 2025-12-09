@@ -1283,6 +1283,11 @@ Transform:
   - {fileID: 483264559}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1434630099 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7712150231314041125, guid: b547b50c5e2b56f4b93efd3ae5671a2e, type: 3}
+  m_PrefabInstance: {fileID: 1914050277}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1914050277
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1295,6 +1300,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 'Bread Boy '
       objectReference: {fileID: 0}
+    - target: {fileID: 3949893385199253462, guid: b547b50c5e2b56f4b93efd3ae5671a2e, type: 3}
+      propertyPath: firePoint
+      value: 
+      objectReference: {fileID: 1434630099}
     - target: {fileID: 7908129656464798872, guid: b547b50c5e2b56f4b93efd3ae5671a2e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6

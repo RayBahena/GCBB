@@ -297,10 +297,8 @@ GameObject:
   - component: {fileID: 3949893385199253462}
   - component: {fileID: 9207793940104049056}
   - component: {fileID: 7150316081592484284}
-  - component: {fileID: 2030468929889314804}
-  - component: {fileID: 5634516354316950337}
   - component: {fileID: 8897000841767991310}
-  - component: {fileID: 6344228179417072003}
+  - component: {fileID: 2455724830322642590}
   m_Layer: 0
   m_Name: 'Bread Boy '
   m_TagString: Player
@@ -511,14 +509,19 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3151855945663874524}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0d6e7f5c4e90c46efa001eabac594cad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attackPoint: {fileID: 0}
+  radius: 1
+  enemies:
+    serializedVersion: 2
+    m_Bits: 0
+  meleeDamage: 1
   bullet: {fileID: 6549113564962614811, guid: 4c80ba3b7d98450459e4ed5d929d8b81, type: 3}
-  firePoint: {fileID: 742613662528526222}
-  fireForward: 1
+  firePoint: {fileID: 7712150231314041125}
   bulletForce: 1500
 --- !u!82 &9207793940104049056
 AudioSource:
@@ -531,7 +534,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 73136bbcde6f48b468fac1d09b951be3, type: 3}
+  m_Resource: {fileID: 8300000, guid: 15990a78767a3c248a2db07654d16ea0, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -624,7 +627,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3151855945663874524}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 85ee22581fcdd964d8f3b85928fbe9c4, type: 3}
   m_Name: 
@@ -635,39 +638,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   damageAmount: 1
---- !u!114 &2030468929889314804
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3151855945663874524}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78f708c11afaf429cad38b5da7251cbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 5
-  numOfcroissants: 0
-  croisants: []
-  fullCroissant: {fileID: 4688223348862734703, guid: fef4a3f1d38c82945a4d96695e9fa695, type: 3}
-  emptyCroissant: {fileID: -4401248563565036290, guid: fef4a3f1d38c82945a4d96695e9fa695, type: 3}
-  gameManager: {fileID: 0}
---- !u!114 &5634516354316950337
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3151855945663874524}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c583a501cb1384742ae6e2707301172e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Movestats: {fileID: 11400000, guid: a583491cd096247c79071fce34545bce, type: 2}
-  _feetcoll: {fileID: 526499071486057726}
-  _bodycoll: {fileID: 7073475430216002409}
 --- !u!114 &8897000841767991310
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -681,12 +651,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 5
-  numOfcroissants: 0
+  maxHealth: 5
   croisants: []
-  fullCroissant: {fileID: 4688223348862734703, guid: fef4a3f1d38c82945a4d96695e9fa695, type: 3}
-  emptyCroissant: {fileID: -4401248563565036290, guid: fef4a3f1d38c82945a4d96695e9fa695, type: 3}
-  gameManager: {fileID: 0}
---- !u!114 &6344228179417072003
+  fullCroisant: {fileID: 4688223348862734703, guid: fef4a3f1d38c82945a4d96695e9fa695, type: 3}
+  emptyCroisant: {fileID: -4401248563565036290, guid: fef4a3f1d38c82945a4d96695e9fa695, type: 3}
+--- !u!114 &2455724830322642590
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -695,12 +664,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 3151855945663874524}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c583a501cb1384742ae6e2707301172e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5ede098821d62ff46bb1f7a281e29a55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Movestats: {fileID: 11400000, guid: a583491cd096247c79071fce34545bce, type: 2}
-  _feetcoll: {fileID: 9074679228752375071}
-  _bodycoll: {fileID: 1569089714198248064}
+  moveSpeed: 10
+  jumpForce: 12
 --- !u!1 &3378056558805943132
 GameObject:
   m_ObjectHideFlags: 0

@@ -12,22 +12,22 @@ public class EpicFail : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
-        {
-            if (gameManager.NumberOfLives == 0)
-            {
-                // Reload the scene
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-            }
-            else
-            {
-                // Lose a life
-                gameManager.NumberOfLives--;
+        //if (other.CompareTag("Player"))
+        //{
+        //    if (gameManager.NumberOfLives == 0)
+        //    {
+        //        // Reload the scene
+        //        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        //    }
+        //    else
+        //    {
+        //        // Lose a life
+        //        gameManager.NumberOfLives--;
 
-                // NEW CHECKPOINT SYSTEM:
-                other.GetComponent<PlayerRespawn>().RespawnPlayer();
-            }
-        }
+        //        // NEW CHECKPOINT SYSTEM:
+        //        other.GetComponent<PlayerRespawn>().RespawnPlayer();
+        //    }
+        //}
         if (other.CompareTag("Player"))
         {
             Health playerHealth = other.GetComponent<Health>();

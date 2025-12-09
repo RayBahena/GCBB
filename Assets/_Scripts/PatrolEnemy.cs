@@ -48,9 +48,9 @@ public class PatrolEnemy : MonoBehaviour
     void OnCollisionEnter2D(Collision2D collision)
     {
         // Turn around when hitting a wall or obstacle
-        if (!collision.gameObject.CompareTag("Ground"))
-        {
-            movingRight = !movingRight;
-        }
+        //if (!collision.gameObject.CompareTag("Ground"))
+        //{
+        //    movingRight = !movingRight;
+        //}
     }
 }
