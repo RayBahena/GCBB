@@ -295,7 +295,6 @@ GameObject:
   - component: {fileID: 9126842728434234178}
   - component: {fileID: 3949893385199253462}
   - component: {fileID: 9207793940104049056}
-  - component: {fileID: 7150316081592484284}
   - component: {fileID: 5175597132362344529}
   - component: {fileID: 5127306673114069025}
   - component: {fileID: 7076941981535682503}
@@ -487,7 +486,7 @@ MonoBehaviour:
   meleeDamage: 1
   bullet: {fileID: 6549113564962614811, guid: 4c80ba3b7d98450459e4ed5d929d8b81, type: 3}
   firePoint: {fileID: 7712150231314041125}
-  bulletForce: 1500
+  bulletForce: 10
 --- !u!82 &9207793940104049056
 AudioSource:
   m_ObjectHideFlags: 0
@@ -585,24 +584,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &7150316081592484284
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3151855945663874524}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85ee22581fcdd964d8f3b85928fbe9c4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attackTransform: {fileID: 6918471602026285382}
-  attackRange: 0.5
-  attackableLayer:
-    serializedVersion: 2
-    m_Bits: 8
-  damageAmount: 1
 --- !u!114 &5175597132362344529
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -630,7 +611,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78f708c11afaf429cad38b5da7251cbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 5
+  health: 1
   maxHealth: 5
   croisants:
   - {fileID: 0}

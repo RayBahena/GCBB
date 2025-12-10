@@ -11,58 +11,66 @@ public class Attack : MonoBehaviour
     [Header("Ranged Settings")]
     public GameObject bullet;
     public Transform firePoint;
-    public float bulletForce = 1500f;
+    public float bulletForce = 800f;
 
     private Animator animator;
-    private SpriteRenderer sr;
-    private bool fireForward = true;
 
     void Start()
     {
         animator = GetComponent<Animator>();
-        sr = GetComponent<SpriteRenderer>();
     }
 
     void Update()
     {
-        // Read facing direction from sprite flip (BEST way)
-        fireForward = !sr.flipX;
-
-        // Melee attack
+        // MELEE INPUT
         if (Input.GetMouseButtonDown(0))
         {
             animator.SetTrigger("isMelee");
         }
 
-        // Ranged attack
+        // RANGED INPUT
         if (Input.GetMouseButtonDown(1))
         {
             animator.SetTrigger("isAttacking");
         }
     }
 
-    // Called by animation event
+    // Called from animation event
     public void MeleeAttack()
     {
-        Collider2D[] enemiesHit = Physics2D.OverlapCircleAll(attackPoint.transform.position, radius, enemies);
+        if (attackPoint == null) return;
+
+        Collider2D[] enemiesHit = Physics2D.OverlapCircleAll(
+            attackPoint.transform.position, radius, enemies
+        );
 
         foreach (var e in enemiesHit)
         {
-            var health = e.GetComponent<EnemyHealthScript>();
+            EnemyHealthScript health = e.GetComponent<EnemyHealthScript>();
             if (health != null)
+            {
                 health.TakeDamage(meleeDamage);
+            }
         }
     }
 
-    // Called by animation event
+    // Called from animation event
     public void FireBullet()
     {
+        if (bullet == null || firePoint == null) return;
+
+        // Spawn bullet
         GameObject newBullet = Instantiate(bullet, firePoint.position, Quaternion.identity);
         Rigidbody2D rb = newBullet.GetComponent<Rigidbody2D>();
 
-        Vector2 dir = fireForward ? Vector2.right : Vector2.left;
-        rb.AddForce(dir * bulletForce);
+        // Determine shooting direction from player scale
+        bool facingRight = transform.localScale.x > 0;
+        Vector2 direction = facingRight ? Vector2.right : Vector2.left;
 
+        // Apply force
+        rb.AddForce(direction * bulletForce, ForceMode2D.Impulse);
+
+        // Auto-delete bullet
         Destroy(newBullet, 2f);
     }
 

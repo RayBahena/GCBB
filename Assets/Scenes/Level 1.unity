@@ -20548,24 +20548,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f272952881c23374da1bf433c7a563c5, type: 3}
---- !u!1 &571557464 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3197801884964397897, guid: 74933ae35ab14d747b0a4960915fb867, type: 3}
-  m_PrefabInstance: {fileID: 731192136}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &571557473
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571557464}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a733240bf8713d42aead0085ff79e69, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 1
 --- !u!1001 &606297693
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20791,10 +20773,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lil Jimbob
       objectReference: {fileID: 0}
-    - target: {fileID: 3197801884964397897, guid: 74933ae35ab14d747b0a4960915fb867, type: 3}
-      propertyPath: m_TagString
-      value: Enemy
-      objectReference: {fileID: 0}
     - target: {fileID: 3410116807303152016, guid: 74933ae35ab14d747b0a4960915fb867, type: 3}
       propertyPath: m_LocalPosition.x
       value: 18.33
@@ -20838,10 +20816,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3197801884964397897, guid: 74933ae35ab14d747b0a4960915fb867, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 571557473}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 74933ae35ab14d747b0a4960915fb867, type: 3}
 --- !u!1001 &735480053
 PrefabInstance:
@@ -25639,6 +25614,63 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &909102796
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6147440156265196169, guid: dfc149f8deb488e46ad88f4144bacff6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.720288
+      objectReference: {fileID: 0}
+    - target: {fileID: 6147440156265196169, guid: dfc149f8deb488e46ad88f4144bacff6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.1867304
+      objectReference: {fileID: 0}
+    - target: {fileID: 6147440156265196169, guid: dfc149f8deb488e46ad88f4144bacff6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6147440156265196169, guid: dfc149f8deb488e46ad88f4144bacff6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6147440156265196169, guid: dfc149f8deb488e46ad88f4144bacff6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6147440156265196169, guid: dfc149f8deb488e46ad88f4144bacff6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6147440156265196169, guid: dfc149f8deb488e46ad88f4144bacff6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6147440156265196169, guid: dfc149f8deb488e46ad88f4144bacff6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6147440156265196169, guid: dfc149f8deb488e46ad88f4144bacff6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6147440156265196169, guid: dfc149f8deb488e46ad88f4144bacff6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6626658163773241313, guid: dfc149f8deb488e46ad88f4144bacff6, type: 3}
+      propertyPath: m_Name
+      value: Fuzzwitch Idle Bop_0 (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dfc149f8deb488e46ad88f4144bacff6, type: 3}
 --- !u!114 &917334102 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2104183360192081770, guid: d3072c13bb70314418292982416d682f, type: 3}
@@ -330603,34 +330635,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!1 &1350305408 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3708476587711856761, guid: 7143fb9ea06445a41a2ca1d89b170791, type: 3}
-  m_PrefabInstance: {fileID: 1611555310}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1350305417
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1350305408}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5cb0032706d6a4370abd598b46143771, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 2
-  patrolDistance: 3
-  detectionRange: 5
-  launchForce: 10
-  arcHeight: 2
-  launchCooldown: 2
-  damage: 1
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 0
-  groundCheckDistance: 0.1
 --- !u!1001 &1352122478
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -331000,10 +331004,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sluna
       objectReference: {fileID: 0}
-    - target: {fileID: 3708476587711856761, guid: 7143fb9ea06445a41a2ca1d89b170791, type: 3}
-      propertyPath: m_TagString
-      value: Enemy
-      objectReference: {fileID: 0}
     - target: {fileID: 6604291763212649902, guid: 7143fb9ea06445a41a2ca1d89b170791, type: 3}
       propertyPath: m_LocalPosition.x
       value: 218.36967
@@ -331047,10 +331047,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3708476587711856761, guid: 7143fb9ea06445a41a2ca1d89b170791, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1350305417}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7143fb9ea06445a41a2ca1d89b170791, type: 3}
 --- !u!1001 &1611601327
 PrefabInstance:
@@ -336848,3 +336845,4 @@ SceneRoots:
   - {fileID: 835951445}
   - {fileID: 4690791451847658814}
   - {fileID: 5572521129176185337}
+  - {fileID: 909102796}

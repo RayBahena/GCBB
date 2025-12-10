@@ -187,22 +187,24 @@ public class PlayerMovement : MonoBehaviour
     }
 
     private void TurnCheck(Vector2 moveInput)
-    {
-        if (_isFacingRight && moveInput.x < 0)
-        {
-            Turn(false);
-        }
-        else if (!_isFacingRight && moveInput.x > 0)
-        {
-            Turn(true);
-        }
-    }
+{
+    if (moveInput.x > 0 && !_isFacingRight)
+        Turn(true);
 
-    private void Turn(bool turnRight)
-    {
-        _isFacingRight = turnRight;
-        transform.Rotate(0f, 180f, 0f);
-    }
+    else if (moveInput.x < 0 && _isFacingRight)
+        Turn(false);
+}
+
+private void Turn(bool faceRight)
+{
+    _isFacingRight = faceRight;
+
+    // Flip by scaling instead of rotating
+    Vector3 scale = transform.localScale;
+    scale.x = faceRight ? Mathf.Abs(scale.x) : -Mathf.Abs(scale.x);
+    transform.localScale = scale;
+}
+
     #endregion
 
     #region Land/Fall

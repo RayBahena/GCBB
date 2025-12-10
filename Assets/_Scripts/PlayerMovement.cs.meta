@@ -1,2 +1,14 @@
 fileFormatVersion: 2
 guid: c583a501cb1384742ae6e2707301172e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Movestats: {fileID: 11400000, guid: a583491cd096247c79071fce34545bce, type: 2}
+  - _feetcoll: {instanceID: 0}
+  - _bodycoll: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

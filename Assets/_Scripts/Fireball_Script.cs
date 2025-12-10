@@ -1,26 +1,43 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Fireball_Script : MonoBehaviour
 {
     private GameObject player;
     private Rigidbody2D rb;
-    public float force;
+
+    public float force = 5f;
+    public int damage = 1;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         player = GameObject.FindGameObjectWithTag("Player");
+
+        if (player == null)
+        {
+            Debug.LogError("Fireball can't find player!");
+            return;
+        }
+
+        // Calculate direction
         Vector3 direction = player.transform.position - transform.position;
-        rb.linearVelocity = new Vector2(direction.x, direction.y).normalized * force;
-        float rot = Mathf.Atan2(-direction.y, -direction.x) * Mathf.Rad2Deg;
+
+        // Apply velocity toward player
+        rb.linearVelocity = direction.normalized * force;
+
+        // Rotate fireball to face movement direction
+        float rot = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0, 0, rot);
-        
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter2D(Collider2D other)
+{
+    Health playerHealth = other.GetComponent<Health>();
+    if (playerHealth != null)
     {
-        
+        playerHealth.TakeDamage(1);
+        Destroy(gameObject); // destroy fireball on hit
     }
+}
+
 }
