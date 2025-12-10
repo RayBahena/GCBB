@@ -487,6 +487,7 @@ MonoBehaviour:
   bullet: {fileID: 6549113564962614811, guid: 4c80ba3b7d98450459e4ed5d929d8b81, type: 3}
   firePoint: {fileID: 7712150231314041125}
   bulletForce: 10
+  showDebugLogs: 1
 --- !u!82 &9207793940104049056
 AudioSource:
   m_ObjectHideFlags: 0
